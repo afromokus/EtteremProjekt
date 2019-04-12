@@ -11,7 +11,7 @@
 		die("Nem sikerült lekérdezni a kategóriákat");		
 	}
 	
-	$htmlSelection = "<select><option value='0'>Válasszon egy kategóriát</option>";
+	$htmlSelection = "<select name = 'kategoria'><option value='0'>Válasszon egy kategóriát</option>";
 	
 	while($sor = $kategoriakTabla -> fetch_assoc())
 	{
