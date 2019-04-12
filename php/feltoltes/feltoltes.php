@@ -13,7 +13,7 @@
 			<form method = "post" action = "#">
 				<input type = "text" id = "termekNev">
 				<br>
-				<textarea id = "leiras" rows = "8" cols = "50" placeholder = "Termék leírása" maxlength = "255"></textarea>
+				<textarea id = "leiras" rows = "6" cols = "50" placeholder = "Termék leírása" maxlength = "255"></textarea>
 				<span id = "szovegHossz">255</span>
 				<br>
 				<input type = "number">
